@@ -1,1 +1,5 @@
-# alcolimetro
+# Breathalyzer - Microprocessor Design
+
+This project involves the design of a digital system capable of detecting the concentration of ethanol in the air after a suspected driver blows into it (or simply by bringing ethanol close to the sensor). If ethanol concentration is detected in the environment, the system activates a green flag (which could simulate the raising of a vehicular access control barrier), indicating that the suspected driver is allowed to continue driving. Conversely, if alcohol is detected, a red flag is activated, signaling to a hypothetical competent authority that the driver has completed their journey and might face some extraordinary financial expenses benefiting the traffic authority (DGT). Additionally, a message is sent via UART indicating whether the driver can continue driving or not. Alcohol is detected using an ethanol sensor, while the control barrier is operated by a servo motor.
+
+![WhatsApp Image 2024-11-25 at 10 45 55](https://github.com/user-attachments/assets/ef586744-4de1-4564-9662-2283bf69ab8d)
